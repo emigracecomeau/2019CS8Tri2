@@ -4,10 +4,9 @@
            <title>ooblick</title>
              <style>
              body{
-                 background-color: #3843b6;
+                 background-color: white;
              }
              .thing{
-                 color: white;
                  font-weight: bold;
                  text-align: center;
                  overflow: hidden;
@@ -16,27 +15,70 @@
                  top: 50%;
                  transform: translate(-50%, -50%) 
                  
-             }
-             .medium{
-                 width: 150px;
-                 height: 150px;
-             }
-             .big{
-                 width: 200px;
-                 height: 200px;
-             }
-             .color0{
-                 background-color: #88852;
+          
              }
              .color1{
-                 background-color: #b702e7;
+                 background-color: black;
+                 width: 430px;
+                 height: 250px;
              }
+
+             .heart{
+                 background-color: white;
+                 width: 360px;
+                 height: 200px;
+                 position: absolute;
+                 
+                 }
+
+                 .mine{
+                 background-color: black;
+                 width: 310px;
+                 height: 170px;
+                 position: absolute;
+                 
+                 }
+
+                 .lonely{
+                 background-color: white;
+                 width: 265px;
+                 height: 125px;
+                 position: absolute;
+                 }
+
+                 .boyfriend{
+                 background-color: black;
+                 width: 240px;
+                 height: 95px;
+                 position: absolute;
+                 }
+
+                 .candy{
+                 background-color: white;
+                 width: 215px;
+                 height: 65px;
+                 position: absolute;
+                 }
+
+                 .sweet{
+                 background-color: black;
+                 width: 200px;
+                 height: 45px;
+                 position: absolute;
+                 }
+
              </style>
              <script> src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"</script>
        </head>
        <body>
-              <div class='thing big color0'>
-        <div class='thing medium color1'></div>
+              <div class='thing'></div>
+        <div class='thing color1'></div>
+        <div class='heart thing color1'></div>
+        <div class='mine heart color1 thing'></div>
+        <div class='lonely mine heart color1 thing'></div>
+        <div class='boyfriend lonely mine heart color1 thing'></div>
+        <div class='candy boyfriend lonely mine heart color1 thing'></div>
+        <div class='sweet candy boyfriend lonely mine heart color1 thing'></div>
         </div>
            <div id='anotherOne' class='thing big color0'></div>
        </body>
